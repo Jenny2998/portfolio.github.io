@@ -35,6 +35,27 @@
     transform: scale(1.2);  
   }
   
+  /* .box2{
+    filter: brightness(80%);
+    color: white;
+  } */
+  
+  .box1:hover img{
+    filter: brightness(80%);
+  }
+
+  .box2:hover img{
+    filter: brightness(80%);
+  }
+  
+  .box3:hover img{
+    filter: brightness(80%);
+  }
+
+  .box4:hover img{
+    filter: brightness(80%);
+  }
+
   .hovereffect h2 {
     /* text-transform: uppercase; */
     text-align: center;
@@ -66,8 +87,9 @@
     color: #fff;
     text-transform: uppercase;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     margin-top:100px;
+    font-size: xx-large;
   }
   
   .hovereffect:hover p, .hovereffect:hover h2 {
